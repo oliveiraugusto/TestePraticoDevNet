@@ -51,7 +51,7 @@ namespace TestePraticoDevNet.Forms
             var dialogResult = MessageBox.Show("Tem certeza?\n(essa operação não pode ser desfeita)", "Aviso", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
             if (dialogResult == DialogResult.Yes)
             {
-                //DELETE ITEM
+                //DELETE ITEM 
             }
         }
     }
