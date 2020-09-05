@@ -117,7 +117,10 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="dataGridViewProdutos.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
+  <data name="Target" xml:space="preserve">
+    <value>H4sIAAAAAAAEAO1YS2/jNhC+F+h/EHhqgayZZC9tIO8ia8eLoLETrJK909LYZkuRWpIy7N+2h/6k/oWO3rJkO3IcGOkDvljUzDdPzkN/ff/T/bgKhbMEbbiSfXLROycOSF8FXM77JLazd7+Qjx9+/MG9CcKV87Wge5/QIac0fbKwNrqi1PgLCJnphdzXyqiZ7fkqpCxQ9PL8/Fd6cUEBIQhiOY77JZaWh5A+4ONASR8iGzMxVgEIk5/jGy9FdSYsBBMxH/rkEYyFB80s99UQlhOwvZSJONeCM9THAzEjDpNSWSRS8urJgGe1knMvwgMmHtcRIN2MCQO5FVcVeVeDzi8Tg2jFWED5sbEqPBDw4n3uIdpkf5GfSelB9OEN+tquE6tTP/bJSGkJPgRKE6cp7mogdEK629G9iv3MaROdlVmCyZT8zpxBLGysoS8htpqJM+chngru/wbrR/UHyL6MhahrjDrju40DPHrQKgJt119glttxOyQO3eSjTcaSrcaT2fc55gFxJiibTQWU+UD3sk9UCAUAJhXeEuKM2eoO5Nwu+gT/EmfEVxAUJznqk0QHBchkdQwHSx3I6PfTS72RAWjw1eklX1u+LMV+UkoAk8+AuLRK873J/2Riprl6UebnvP+n/WnS4E7NuTy9WA/kgv0Lkh67qmVcgi4ERBGmX5rrw2nyElZ2yzXAdpnfBJNbsql2Bu6BbXUTMMSpFMo6ca/ebOh+pPx6bUMpb+0280tDq7mBZoNDMWDQHROGO2ZRhPGtTRz5ieNl48bgnXd4Bw4zDOqbLY241LaUZJVmc2i8RdGo6YhrY4fMsilLgj8IwhbZ1rDucHQhckvkmnWnCkHBlPzPGDuMBk28yrMjNDYEaVO7oVRtYyxpMaejIBNMb6lrAyXiUO6qjfu4s7JW589OuiNknbmOkJ10R6i6bB2lOu2OlBeQOkx+1MZwaSMazfDTVvwbHaeZU50yrrzhr5JtRVE4PNV2cr7VPMtbYR0iP+qOkfe1OkZ+9A/MsVbtb5KU0sse0Kj1bl53n185W4U4IyEOOmfJg6QIe2vM0bCXEPS8b2IgONpbEYyZ5DNM42zwI7jvXTb21bezO1JjAtF5gTz5/BpL/i0GdCoqNeOgj5pl5ZJpf8H0TyFb/XzUWnYcUnPVOg5tY5Kccvvaq9N/OeYbO8lxUBt7xhuKeHNvaM+hXReCZ9aBrIz2STBNdM+0PXxd2LctbJNw7CrRbhsurX/PdIdg+LyCSL5uoklJPa5AC5pbOVNFLNGyukYFSSPUY7AswEBca7wLzLf42gdj0iX1KxNxUk3CKQS38j62UWyvjYFwKtZ1e126X366L23q7N5HyZN5DRNQTY4mwL38FHMRlHqPtmTqDogkJz8Dnqd9Dpd0hJuvS6SJkh2BcvcNIQKZ1JdHCCOBYOZeemwJL9ENF+g7mDN/XXT/3SDPB2LT7e6Qs7lmockxKv7kGz1NPtJ/+Bvk2G/w1hcAAA==</value>
+  </data>
+  <data name="DefaultSchema" xml:space="preserve">
+    <value>dbo</value>
+  </data>
 </root>

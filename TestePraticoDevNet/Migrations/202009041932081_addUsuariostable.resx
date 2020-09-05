@@ -117,7 +117,10 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="dataGridViewProdutos.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
+  <data name="Target" xml:space="preserve">
+    <value>H4sIAAAAAAAEAM1X227bRhB9L9B/WOxTCzha23lpDTKBI9mBUUs2QjvvK3IkLboXZncpSN+Wh35Sf6HDO0VdLEeBUehFXM6cuezMmeG/3/8JPq6UJEuwThgd0ovBOSWgY5MIPQ9p5mfv/qAfP/z6S3CTqBX5Wsu9z+VQU7uQLrxPrxhz8QIUdwMlYmucmflBbBTjiWGX5+d/sosLBghBEYuQ4EumvVBQPODj0OgYUp9xOTYJSFed45uoQCUTrsClPIaQPoHz8Gi5F7EZwXICflAoUXItBUd/IpAzSrjWxqOQ0VfPDiJvjZ5HKR5w+bROAeVmXDqoorhqxY8N6PwyD4i1ijVUnDlv1CsBL95XGWJ99R/KM20yiDm8wVz7dR51kceQPruMW2Eo6du6Gkqby+3P8qDSPSPbEmdNfWAZ5b8zMsykzyyEGjJvuTwjj9lUivgvWD+Zv0GHOpOy6yt6i+82DvDo0ZoUrF9/gVkVwd2IErapx/qKjVpHpwzucyYSSiZom08lNJXADqpPjIIaAMsJ+4OSMV/dg577RUjxLyW3YgVJfVKhPmtMUIJK3mbwaqv3Zi7025uNQC/425u99mJparOfjJHA9QsgAWvLe7vokVg8FxpsbSBNsfyKWh9N85ew8jvaABmj6gRXRbLpdgkegd9sKEdJ60xJRIOm13Y53bjXEh4rGa9mRraHGoMxT1O8lQ5VVickKnly+C56PXWoEoPFbgeDNN42lryxfA69t2gaPb0V1vkR93zK8ysbJmpLbOdl7El0bbKX7z5TtOmvFfL/pdJLlNYHa1N6i1Eq0L4IGBqfWiLd0iwmF5fc7uCgoZGZ0vt47JB2SUFd/fLkeISKTroQ1dHxGBU3dDGqo+MxqkbvYlRH2xgB611D/9LZ1q33JkO/ig51Yl+ksd50ZK/zgqoLXt5cttqiFKEEk7MUSd4S0RprVA1ygUH0TQ6lwHhbgTHXYoZlXA5PimvDZW/t+f+sIMy5RB63h7z5ApBp8S0DzCh6NBNgT1oG9JLbeMHtb4qvfj9twJ8GtTG0T4PaGMRT4X/qEN4eD0dN10PDteykkCbT3OvSz1Mn73ZfB6z73RKMwIl5C5F/xWiI84ZpQWuZOz0zdY4xsq5HtUjvCsbgeYIJurZYozz2+DoG54pN7CuXGYrcqCkkd/oh82nmr50DNZXrbrwBO2y/WC82fQ4e0vzJ/YwQ0E2BIcCD/pQJmTR+3+6ooD0Qea18BjwviAg3UYSbrxukidFHAlXpG0EKOu/7J1CpRDD3oCO+hB/xDbfEe5jzeF3T836Qly9iM+3BSPC55cpVGK1+/i3O8o/xD/8Bn30Kub4PAAA=</value>
+  </data>
+  <data name="DefaultSchema" xml:space="preserve">
+    <value>dbo</value>
+  </data>
 </root>

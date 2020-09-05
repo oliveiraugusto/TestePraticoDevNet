@@ -53,6 +53,7 @@
             this.textBoxUsuario.Name = "textBoxUsuario";
             this.textBoxUsuario.Size = new System.Drawing.Size(170, 26);
             this.textBoxUsuario.TabIndex = 1;
+            this.textBoxUsuario.Text = "admin";
             this.textBoxUsuario.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBoxSenha
@@ -63,6 +64,7 @@
             this.textBoxSenha.PasswordChar = '*';
             this.textBoxSenha.Size = new System.Drawing.Size(170, 26);
             this.textBoxSenha.TabIndex = 2;
+            this.textBoxSenha.Text = "admin";
             this.textBoxSenha.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label2

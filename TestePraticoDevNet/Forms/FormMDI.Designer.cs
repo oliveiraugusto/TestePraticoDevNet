@@ -30,6 +30,7 @@
         {
             this.statusStripMDI = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabelUsuário = new System.Windows.Forms.ToolStripStatusLabel();
+            this.toolStripStatusLabelNomeUsuario = new System.Windows.Forms.ToolStripStatusLabel();
             this.menuStripMDI = new System.Windows.Forms.MenuStrip();
             this.cadastrosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.fornecedoresToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -42,19 +43,26 @@
             // statusStripMDI
             // 
             this.statusStripMDI.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripStatusLabelUsuário});
+            this.toolStripStatusLabelUsuário,
+            this.toolStripStatusLabelNomeUsuario});
             this.statusStripMDI.Location = new System.Drawing.Point(0, 539);
             this.statusStripMDI.Name = "statusStripMDI";
             this.statusStripMDI.Size = new System.Drawing.Size(884, 22);
             this.statusStripMDI.TabIndex = 0;
             this.statusStripMDI.Text = "statusStrip1";
-            this.statusStripMDI.UseWaitCursor = true;
             // 
             // toolStripStatusLabelUsuário
             // 
             this.toolStripStatusLabelUsuário.Name = "toolStripStatusLabelUsuário";
-            this.toolStripStatusLabelUsuário.Size = new System.Drawing.Size(119, 17);
-            this.toolStripStatusLabelUsuário.Text = "Usuário:  XXXXXXXXX";
+            this.toolStripStatusLabelUsuário.Size = new System.Drawing.Size(53, 17);
+            this.toolStripStatusLabelUsuário.Text = "Usuário: ";
+            // 
+            // toolStripStatusLabelNomeUsuario
+            // 
+            this.toolStripStatusLabelNomeUsuario.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
+            this.toolStripStatusLabelNomeUsuario.Name = "toolStripStatusLabelNomeUsuario";
+            this.toolStripStatusLabelNomeUsuario.Size = new System.Drawing.Size(39, 17);
+            this.toolStripStatusLabelNomeUsuario.Text = "XXXX";
             // 
             // menuStripMDI
             // 
@@ -66,7 +74,6 @@
             this.menuStripMDI.Size = new System.Drawing.Size(884, 29);
             this.menuStripMDI.TabIndex = 1;
             this.menuStripMDI.Text = "menuStrip1";
-            this.menuStripMDI.UseWaitCursor = true;
             // 
             // cadastrosToolStripMenuItem
             // 
@@ -118,7 +125,6 @@
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Sistema";
-            this.UseWaitCursor = true;
             this.Load += new System.EventHandler(this.FormMDI_Load);
             this.statusStripMDI.ResumeLayout(false);
             this.statusStripMDI.PerformLayout();
@@ -137,6 +143,7 @@
         private System.Windows.Forms.ToolStripMenuItem sairToolStripMenuItem;
         public System.Windows.Forms.StatusStrip statusStripMDI;
         public System.Windows.Forms.MenuStrip menuStripMDI;
+        private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabelNomeUsuario;
     }
 }
 

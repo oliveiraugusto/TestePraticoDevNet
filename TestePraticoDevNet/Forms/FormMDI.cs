@@ -25,8 +25,6 @@ namespace TestePraticoDevNet
 
         private void FormMDI_Load(object sender, EventArgs e)
         {
-            //Controls.OfType<MdiClient>().FirstOrDefault().BackColor = SystemColors.Control;
-
             menuStripMDI.Visible = false;
             statusStripMDI.Visible = false;
 
@@ -47,7 +45,6 @@ namespace TestePraticoDevNet
             var fProduto = new FormProdutos();
             fProduto.MdiParent = this;
             fProduto.Show();
-
         }
     }
 }

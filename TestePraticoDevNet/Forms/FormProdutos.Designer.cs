@@ -30,24 +30,24 @@
         {
             this.tabControlProdutos = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.label1 = new System.Windows.Forms.Label();
-            this.textBoxPesquisar = new System.Windows.Forms.TextBox();
-            this.dataGridViewProdutos = new System.Windows.Forms.DataGridView();
-            this.buttonExcluir = new System.Windows.Forms.Button();
             this.buttonNovo = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
-            this.textBoxNome = new System.Windows.Forms.TextBox();
-            this.textBoxFornecedor = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.numericUpDownQuantidade = new System.Windows.Forms.NumericUpDown();
-            this.buttonCancelar = new System.Windows.Forms.Button();
+            this.buttonExcluir = new System.Windows.Forms.Button();
+            this.dataGridViewProdutos = new System.Windows.Forms.DataGridView();
+            this.textBoxPesquisar = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.comboBoxForncedor = new System.Windows.Forms.ComboBox();
             this.buttonSalvar = new System.Windows.Forms.Button();
+            this.buttonCancelar = new System.Windows.Forms.Button();
+            this.numericUpDownQuantidade = new System.Windows.Forms.NumericUpDown();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.textBoxNome = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.tabControlProdutos.SuspendLayout();
             this.tabPage1.SuspendLayout();
-            this.tabPage2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewProdutos)).BeginInit();
+            this.tabPage2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownQuantidade)).BeginInit();
             this.SuspendLayout();
             // 
@@ -74,60 +74,8 @@
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage1.Size = new System.Drawing.Size(582, 328);
             this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "tabPage1";
+            this.tabPage1.Text = "Consulta";
             this.tabPage1.UseVisualStyleBackColor = true;
-            // 
-            // tabPage2
-            // 
-            this.tabPage2.Controls.Add(this.buttonSalvar);
-            this.tabPage2.Controls.Add(this.buttonCancelar);
-            this.tabPage2.Controls.Add(this.numericUpDownQuantidade);
-            this.tabPage2.Controls.Add(this.label4);
-            this.tabPage2.Controls.Add(this.textBoxFornecedor);
-            this.tabPage2.Controls.Add(this.label3);
-            this.tabPage2.Controls.Add(this.textBoxNome);
-            this.tabPage2.Controls.Add(this.label2);
-            this.tabPage2.Location = new System.Drawing.Point(4, 29);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(582, 328);
-            this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "tabPage2";
-            this.tabPage2.UseVisualStyleBackColor = true;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(78, 22);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(79, 20);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Pesquisar";
-            // 
-            // textBoxPesquisar
-            // 
-            this.textBoxPesquisar.Location = new System.Drawing.Point(163, 19);
-            this.textBoxPesquisar.Name = "textBoxPesquisar";
-            this.textBoxPesquisar.Size = new System.Drawing.Size(288, 26);
-            this.textBoxPesquisar.TabIndex = 1;
-            // 
-            // dataGridViewProdutos
-            // 
-            this.dataGridViewProdutos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridViewProdutos.Location = new System.Drawing.Point(48, 51);
-            this.dataGridViewProdutos.Name = "dataGridViewProdutos";
-            this.dataGridViewProdutos.Size = new System.Drawing.Size(508, 205);
-            this.dataGridViewProdutos.TabIndex = 2;
-            // 
-            // buttonExcluir
-            // 
-            this.buttonExcluir.Location = new System.Drawing.Point(48, 262);
-            this.buttonExcluir.Name = "buttonExcluir";
-            this.buttonExcluir.Size = new System.Drawing.Size(83, 32);
-            this.buttonExcluir.TabIndex = 3;
-            this.buttonExcluir.Text = "Excluir";
-            this.buttonExcluir.UseVisualStyleBackColor = true;
-            this.buttonExcluir.Click += new System.EventHandler(this.buttonExcluir_Click);
             // 
             // buttonNovo
             // 
@@ -139,37 +87,101 @@
             this.buttonNovo.UseVisualStyleBackColor = true;
             this.buttonNovo.Click += new System.EventHandler(this.buttonNovo_Click);
             // 
-            // label2
+            // buttonExcluir
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(95, 44);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(51, 20);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "Nome";
+            this.buttonExcluir.Location = new System.Drawing.Point(48, 262);
+            this.buttonExcluir.Name = "buttonExcluir";
+            this.buttonExcluir.Size = new System.Drawing.Size(83, 32);
+            this.buttonExcluir.TabIndex = 3;
+            this.buttonExcluir.Text = "Excluir";
+            this.buttonExcluir.UseVisualStyleBackColor = true;
+            this.buttonExcluir.Click += new System.EventHandler(this.buttonExcluir_Click);
             // 
-            // textBoxNome
+            // dataGridViewProdutos
             // 
-            this.textBoxNome.Location = new System.Drawing.Point(192, 41);
-            this.textBoxNome.Name = "textBoxNome";
-            this.textBoxNome.Size = new System.Drawing.Size(301, 26);
-            this.textBoxNome.TabIndex = 1;
+            this.dataGridViewProdutos.AllowUserToAddRows = false;
+            this.dataGridViewProdutos.AllowUserToDeleteRows = false;
+            this.dataGridViewProdutos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridViewProdutos.Location = new System.Drawing.Point(48, 51);
+            this.dataGridViewProdutos.MaximumSize = new System.Drawing.Size(508, 205);
+            this.dataGridViewProdutos.MinimumSize = new System.Drawing.Size(508, 205);
+            this.dataGridViewProdutos.MultiSelect = false;
+            this.dataGridViewProdutos.Name = "dataGridViewProdutos";
+            this.dataGridViewProdutos.ReadOnly = true;
+            this.dataGridViewProdutos.Size = new System.Drawing.Size(508, 205);
+            this.dataGridViewProdutos.TabIndex = 2;
+            this.dataGridViewProdutos.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewProdutos_CellClick);
+            this.dataGridViewProdutos.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewProdutos_CellDoubleClick);
             // 
-            // textBoxFornecedor
+            // textBoxPesquisar
             // 
-            this.textBoxFornecedor.Location = new System.Drawing.Point(192, 73);
-            this.textBoxFornecedor.Name = "textBoxFornecedor";
-            this.textBoxFornecedor.Size = new System.Drawing.Size(301, 26);
-            this.textBoxFornecedor.TabIndex = 3;
+            this.textBoxPesquisar.Location = new System.Drawing.Point(163, 19);
+            this.textBoxPesquisar.Name = "textBoxPesquisar";
+            this.textBoxPesquisar.Size = new System.Drawing.Size(288, 26);
+            this.textBoxPesquisar.TabIndex = 1;
+            this.textBoxPesquisar.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxPesquisar_KeyDown);
             // 
-            // label3
+            // label1
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(95, 76);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(91, 20);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "Fornecedor";
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(78, 22);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(79, 20);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Pesquisar";
+            // 
+            // tabPage2
+            // 
+            this.tabPage2.Controls.Add(this.comboBoxForncedor);
+            this.tabPage2.Controls.Add(this.buttonSalvar);
+            this.tabPage2.Controls.Add(this.buttonCancelar);
+            this.tabPage2.Controls.Add(this.numericUpDownQuantidade);
+            this.tabPage2.Controls.Add(this.label4);
+            this.tabPage2.Controls.Add(this.label3);
+            this.tabPage2.Controls.Add(this.textBoxNome);
+            this.tabPage2.Controls.Add(this.label2);
+            this.tabPage2.Location = new System.Drawing.Point(4, 29);
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage2.Size = new System.Drawing.Size(582, 328);
+            this.tabPage2.TabIndex = 1;
+            this.tabPage2.Text = "Cadastro";
+            this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // comboBoxForncedor
+            // 
+            this.comboBoxForncedor.FormattingEnabled = true;
+            this.comboBoxForncedor.Location = new System.Drawing.Point(193, 71);
+            this.comboBoxForncedor.Name = "comboBoxForncedor";
+            this.comboBoxForncedor.Size = new System.Drawing.Size(300, 28);
+            this.comboBoxForncedor.TabIndex = 2;
+            // 
+            // buttonSalvar
+            // 
+            this.buttonSalvar.Location = new System.Drawing.Point(405, 178);
+            this.buttonSalvar.Name = "buttonSalvar";
+            this.buttonSalvar.Size = new System.Drawing.Size(88, 34);
+            this.buttonSalvar.TabIndex = 4;
+            this.buttonSalvar.Text = "Salvar";
+            this.buttonSalvar.UseVisualStyleBackColor = true;
+            this.buttonSalvar.Click += new System.EventHandler(this.buttonSalvar_Click);
+            // 
+            // buttonCancelar
+            // 
+            this.buttonCancelar.Location = new System.Drawing.Point(99, 178);
+            this.buttonCancelar.Name = "buttonCancelar";
+            this.buttonCancelar.Size = new System.Drawing.Size(88, 34);
+            this.buttonCancelar.TabIndex = 5;
+            this.buttonCancelar.Text = "Cancelar";
+            this.buttonCancelar.UseVisualStyleBackColor = true;
+            this.buttonCancelar.Click += new System.EventHandler(this.buttonCancelar_Click);
+            // 
+            // numericUpDownQuantidade
+            // 
+            this.numericUpDownQuantidade.Location = new System.Drawing.Point(193, 105);
+            this.numericUpDownQuantidade.Name = "numericUpDownQuantidade";
+            this.numericUpDownQuantidade.Size = new System.Drawing.Size(39, 26);
+            this.numericUpDownQuantidade.TabIndex = 3;
             // 
             // label4
             // 
@@ -180,32 +192,30 @@
             this.label4.TabIndex = 4;
             this.label4.Text = "Quantidade";
             // 
-            // numericUpDownQuantidade
+            // label3
             // 
-            this.numericUpDownQuantidade.Location = new System.Drawing.Point(193, 105);
-            this.numericUpDownQuantidade.Name = "numericUpDownQuantidade";
-            this.numericUpDownQuantidade.Size = new System.Drawing.Size(39, 26);
-            this.numericUpDownQuantidade.TabIndex = 5;
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(95, 76);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(91, 20);
+            this.label3.TabIndex = 2;
+            this.label3.Text = "Fornecedor";
             // 
-            // buttonCancelar
+            // textBoxNome
             // 
-            this.buttonCancelar.Location = new System.Drawing.Point(99, 178);
-            this.buttonCancelar.Name = "buttonCancelar";
-            this.buttonCancelar.Size = new System.Drawing.Size(88, 34);
-            this.buttonCancelar.TabIndex = 6;
-            this.buttonCancelar.Text = "Cancelar";
-            this.buttonCancelar.UseVisualStyleBackColor = true;
-            this.buttonCancelar.Click += new System.EventHandler(this.buttonCancelar_Click);
+            this.textBoxNome.Location = new System.Drawing.Point(192, 41);
+            this.textBoxNome.Name = "textBoxNome";
+            this.textBoxNome.Size = new System.Drawing.Size(301, 26);
+            this.textBoxNome.TabIndex = 1;
             // 
-            // buttonSalvar
+            // label2
             // 
-            this.buttonSalvar.Location = new System.Drawing.Point(405, 178);
-            this.buttonSalvar.Name = "buttonSalvar";
-            this.buttonSalvar.Size = new System.Drawing.Size(88, 34);
-            this.buttonSalvar.TabIndex = 7;
-            this.buttonSalvar.Text = "Salvar";
-            this.buttonSalvar.UseVisualStyleBackColor = true;
-            this.buttonSalvar.Click += new System.EventHandler(this.buttonSalvar_Click);
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(95, 44);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(51, 20);
+            this.label2.TabIndex = 0;
+            this.label2.Text = "Nome";
             // 
             // FormProdutos
             // 
@@ -223,9 +233,9 @@
             this.tabControlProdutos.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewProdutos)).EndInit();
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewProdutos)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownQuantidade)).EndInit();
             this.ResumeLayout(false);
 
@@ -243,11 +253,15 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button buttonSalvar;
         private System.Windows.Forms.Button buttonCancelar;
-        private System.Windows.Forms.NumericUpDown numericUpDownQuantidade;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBoxFornecedor;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBoxNome;
         private System.Windows.Forms.Label label2;
+        public System.Windows.Forms.NumericUpDown numericUpDownQuantidade;
+        public System.Windows.Forms.TextBox textBoxNome;
+        public System.Windows.Forms.ComboBox comboBoxForncedor;
+        //private System.Windows.Forms.DataGridViewTextBoxColumn iDDataGridViewTextBoxColumn;
+        //private System.Windows.Forms.DataGridViewTextBoxColumn nomeDataGridViewTextBoxColumn;
+        //private System.Windows.Forms.DataGridViewTextBoxColumn quantidadeDataGridViewTextBoxColumn;
+        //private System.Windows.Forms.DataGridViewTextBoxColumn fornecedoresIDDataGridViewTextBoxColumn;
     }
 }
